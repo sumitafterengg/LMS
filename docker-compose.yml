@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   forms-api:
     build:
-      context: ./apps/forms-api
+      context: ./institute-platform/apps/forms-api
       dockerfile: Dockerfile
     container_name: forms-api
     ports:
@@ -22,16 +20,16 @@ services:
 
   website:
     build:
-      context: ./apps/website
+      context: ./institute-platform/apps/website
       dockerfile: Dockerfile
     container_name: website
     ports:
       - "3000:3000"
-    depends_on:
-      - forms-api
     environment:
       - NEXT_PUBLIC_API_URL=http://localhost:8000
     restart: unless-stopped
+    depends_on:
+      - forms-api
 
 volumes:
   forms-db:
