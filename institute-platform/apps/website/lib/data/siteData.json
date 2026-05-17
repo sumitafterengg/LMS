@@ -1,0 +1,289 @@
+{
+  "stats": [
+    { "value": 45, "label": "Programs", "suffix": "+" },
+    { "value": 5, "label": "Projects", "suffix": "+" },
+    { "value": 8, "label": "Partner Organizations", "suffix": "" },
+    { "value": 1404, "label": "Participants", "suffix": "+" }
+  ],
+  "services": [
+    {
+      "id": "leadership-management",
+      "title": "Leadership & Management",
+      "icon": "briefcase",
+      "summary": "Programs that strengthen leadership capability, team management, and institutional effectiveness.",
+      "featured": true,
+      "programs": [
+        "Executive leadership development",
+        "Performance management",
+        "Strategic planning",
+        "Supervisory skills"
+      ]
+    },
+    {
+      "id": "governance-compliance",
+      "title": "Governance & Compliance",
+      "icon": "shield",
+      "summary": "Structured training on regulatory frameworks, corporate governance, and compliance systems.",
+      "featured": false,
+      "programs": [
+        "Corporate governance frameworks",
+        "Regulatory compliance",
+        "Internal audit fundamentals",
+        "Ethics and accountability"
+      ]
+    },
+    {
+      "id": "digital-transformation",
+      "title": "Digital Transformation",
+      "icon": "cpu",
+      "summary": "Helping organizations navigate digital change through strategy, tools, and upskilling.",
+      "featured": false,
+      "programs": [
+        "Digital strategy and roadmaps",
+        "Business process automation",
+        "Change management for digital adoption",
+        "Data-driven decision making"
+      ]
+    },
+    {
+      "id": "risk-crisis",
+      "title": "Risk & Crisis Management",
+      "icon": "alert",
+      "summary": "Preparing organizations to identify, assess, and respond to risk and crisis situations.",
+      "featured": false,
+      "programs": [
+        "Enterprise risk management",
+        "Business continuity planning",
+        "Crisis communication",
+        "Incident response protocols"
+      ]
+    },
+    {
+      "id": "finance-business",
+      "title": "Finance & Business Support",
+      "icon": "chart",
+      "summary": "Building financial literacy and business acumen across teams and leadership.",
+      "featured": false,
+      "programs": [
+        "Financial analysis and reporting",
+        "Budgeting and forecasting",
+        "Project financial management",
+        "Business case development"
+      ]
+    },
+    {
+      "id": "data-ai",
+      "title": "Data, AI & Emerging Technology",
+      "icon": "zap",
+      "summary": "Programs covering data literacy, AI fundamentals, and emerging technology applications.",
+      "featured": false,
+      "programs": [
+        "Data analytics fundamentals",
+        "AI for business leaders",
+        "Machine learning basics",
+        "Emerging technology trends"
+      ]
+    },
+    {
+      "id": "sustainability",
+      "title": "Sustainability & Energy",
+      "icon": "leaf",
+      "summary": "Training on sustainability practices, energy management, and environmental responsibility.",
+      "featured": false,
+      "programs": [
+        "Sustainability strategy development",
+        "Energy management systems",
+        "Environmental compliance",
+        "ESG reporting fundamentals"
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "title": "Mental Health & Wellbeing",
+      "icon": "heart",
+      "summary": "Programs that support mental health awareness, resilience, and workplace wellbeing.",
+      "featured": false,
+      "programs": [
+        "Mental health first aid",
+        "Workplace resilience",
+        "Stress management techniques",
+        "Employee wellbeing programs"
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "Operations & Technical Programs",
+      "icon": "settings",
+      "summary": "Technical training for operational excellence and process improvement.",
+      "featured": false,
+      "programs": [
+        "Lean management",
+        "Quality assurance systems",
+        "Supply chain optimization",
+        "Project management methodologies"
+      ]
+    },
+    {
+      "id": "innovation",
+      "title": "Innovation & Entrepreneurship",
+      "icon": "lightbulb",
+      "summary": "Fostering innovation culture, entrepreneurial thinking, and creative problem-solving.",
+      "featured": false,
+      "programs": [
+        "Design thinking workshops",
+        "Startup incubation programs",
+        "Innovation management",
+        "Entrepreneurial leadership"
+      ]
+    }
+  ],
+  "differentiators": [
+    {
+      "title": "Recognized Expertise",
+      "description": "Delivered by qualified professionals with deep sector knowledge and practical experience.",
+      "icon": "award"
+    },
+    {
+      "title": "Practical Delivery",
+      "description": "Programs built around real-world organizational needs with hands-on application.",
+      "icon": "target"
+    },
+    {
+      "title": "Proven Results",
+      "description": "Structured engagement models focused on measurable impact and lasting outcomes.",
+      "icon": "trending"
+    }
+  ],
+  "deliveryMethods": [
+    {
+      "step": 1,
+      "title": "Needs Assessment",
+      "description": "We begin by understanding your organization's challenges, goals, and context through structured discovery sessions."
+    },
+    {
+      "step": 2,
+      "title": "Program Design",
+      "description": "Our team designs a tailored program combining workshops, seminars, and practical exercises aligned to your objectives."
+    },
+    {
+      "step": 3,
+      "title": "Expert Delivery",
+      "description": "Experienced facilitators deliver engaging sessions using proven methodologies and real-world case studies."
+    },
+    {
+      "step": 4,
+      "title": "Follow-up & Evaluation",
+      "description": "We measure outcomes, gather feedback, and provide post-program support to ensure sustained impact."
+    }
+  ],
+  "values": [
+    {
+      "title": "Integrity",
+      "description": "We work with professionalism, transparency, and accountability in every engagement.",
+      "icon": "shield"
+    },
+    {
+      "title": "Innovation",
+      "description": "We embrace new ideas, technologies, and approaches to deliver cutting-edge solutions.",
+      "icon": "lightbulb"
+    },
+    {
+      "title": "Excellence",
+      "description": "We set the highest standards for quality in every program, project, and partnership.",
+      "icon": "star"
+    },
+    {
+      "title": "Practical Impact",
+      "description": "We focus on outcomes that translate directly into real organizational improvement.",
+      "icon": "target"
+    }
+  ],
+  "clientLogos": [
+    { "name": "Organization 1", "sector": "Government" },
+    { "name": "Organization 2", "sector": "Energy" },
+    { "name": "Organization 3", "sector": "Finance" },
+    { "name": "Organization 4", "sector": "Healthcare" },
+    { "name": "Organization 5", "sector": "Education" },
+    { "name": "Organization 6", "sector": "Private Sector" },
+    { "name": "Organization 7", "sector": "Government" },
+    { "name": "Organization 8", "sector": "Energy" }
+  ],
+  "sectors": ["All", "Government", "Energy", "Finance", "Healthcare", "Education", "Private Sector"],
+  "accreditations": [
+    {
+      "name": "International Accreditation Body",
+      "description": "Recognized for meeting international standards in training delivery and quality assurance."
+    },
+    {
+      "name": "Professional Certification Council",
+      "description": "Certified provider of professional development programs with global recognition."
+    },
+    {
+      "name": "Regional Standards Authority",
+      "description": "Accredited by the regional authority for institutional training and consulting services."
+    }
+  ],
+  "albums": [
+    {
+      "id": "album-001",
+      "title": "Leadership Development Workshop",
+      "subtitle": "Annual leadership program",
+      "year": 2025,
+      "photoCount": 12,
+      "category": "Workshop"
+    },
+    {
+      "id": "album-002",
+      "title": "Governance Training Seminar",
+      "subtitle": "Corporate governance program",
+      "year": 2025,
+      "photoCount": 8,
+      "category": "Training"
+    },
+    {
+      "id": "album-003",
+      "title": "Digital Transformation Conference",
+      "subtitle": "Technology innovation summit",
+      "year": 2024,
+      "photoCount": 15,
+      "category": "Conference"
+    },
+    {
+      "id": "album-004",
+      "title": "Community Engagement Program",
+      "subtitle": "Youth empowerment initiative",
+      "year": 2024,
+      "photoCount": 10,
+      "category": "Community"
+    },
+    {
+      "id": "album-005",
+      "title": "Risk Management Workshop",
+      "subtitle": "Enterprise risk assessment",
+      "year": 2024,
+      "photoCount": 6,
+      "category": "Workshop"
+    },
+    {
+      "id": "album-006",
+      "title": "Annual Partners Summit",
+      "subtitle": "Strategic partnerships forum",
+      "year": 2025,
+      "photoCount": 20,
+      "category": "Conference"
+    }
+  ],
+  "albumCategories": ["All", "Workshop", "Training", "Conference", "Community"],
+  "contactInfo": {
+    "addressLine1": "Office Location / Building",
+    "addressLine2": "City, Region, Country",
+    "emails": ["info@example.com", "contact@example.com"],
+    "phones": ["+00000000000"],
+    "socialLinks": {
+      "linkedin": "",
+      "instagram": "",
+      "whatsapp": ""
+    },
+    "mapEmbedUrl": ""
+  }
+}

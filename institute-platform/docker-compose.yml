@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  forms-api:
+    build:
+      context: ./apps/forms-api
+      dockerfile: Dockerfile
+    container_name: forms-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - forms-db:/app/db
+      - forms-media:/app/media
+    environment:
+      - DEBUG=True
+      - SECRET_KEY=django-insecure-coolify-demo-key-1234567890
+      - ALLOWED_HOSTS=*
+      - CORS_ALLOWED_ORIGINS=http://localhost:3000
+      - SERVE_MEDIA_IN_PRODUCTION=True
+      - DATABASE_PATH=/app/db/db.sqlite3
+    restart: unless-stopped
+
+  website:
+    build:
+      context: ./apps/website
+      dockerfile: Dockerfile
+    container_name: website
+    ports:
+      - "3000:3000"
+    depends_on:
+      - forms-api
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    restart: unless-stopped
+
+volumes:
+  forms-db:
+  forms-media:

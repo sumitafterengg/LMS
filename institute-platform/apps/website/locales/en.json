@@ -1,0 +1,104 @@
+{
+  "site": {
+    "name": "[INSTITUTE_NAME_EN]",
+    "tagline": "Professional training and online learning"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "clients": "Clients",
+    "events": "Events & Gallery",
+    "contact": "Contact Us"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "enrollNow": "Enroll Now",
+    "readMore": "Read More",
+    "submit": "Submit",
+    "viewAll": "View All",
+    "getInTouch": "Get in Touch",
+    "exploreServices": "Explore Services",
+    "browseServices": "Browse Services",
+    "requestConsultation": "Request a Consultation",
+    "inquire": "Inquire About This Service",
+    "sendMessage": "Send Message",
+    "placeholder": "[CONTENT_PENDING]",
+    "all": "All",
+    "filterBy": "Filter by"
+  },
+  "home": {
+    "heroLabel": "Professional Development & Advisory",
+    "heroTitle": "Building Capability.\nCreating Impact.",
+    "heroSubtitle": "A modern institution delivering training, consulting, and strategic programs for organizations and professionals.",
+    "ctaPrimary": "Explore Services",
+    "ctaSecondary": "Contact Us",
+    "aboutLabel": "Who We Are",
+    "aboutTitle": "Empowering Organizations Through Knowledge",
+    "aboutParagraph1": "We are a professional institution committed to delivering high-quality training, consulting, and advisory services. Our programs are designed to build capacity, drive performance, and create lasting impact across public and private sectors.",
+    "aboutParagraph2": "With a network of experienced facilitators and a structured approach to learning, we bridge the gap between theory and practice.",
+    "aboutCta": "Learn More About Us",
+    "aboutHighlight": "Our mission is to empower professionals and organizations with the knowledge and skills they need to thrive in a changing world.",
+    "statsLabel": "Our Impact",
+    "statsTitle": "Numbers That Speak",
+    "servicesLabel": "What We Offer",
+    "servicesTitle": "Core Service Areas",
+    "servicesCta": "View All Services",
+    "valuesLabel": "Why Choose Us",
+    "valuesTitle": "What Sets Us Apart",
+    "partnersLabel": "Trusted By",
+    "partnersTitle": "Organizations We Work With",
+    "accreditationsLabel": "Accreditations",
+    "accreditationsTitle": "Standards & Affiliations",
+    "ctaBannerTitle": "Ready to Strengthen Your Team?",
+    "ctaBannerSubtitle": "Speak with us about training, consulting, or a custom institutional program."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "A structured portfolio of training, consulting, and development solutions designed to help organizations perform better.",
+    "diffLabel": "Why We're Different",
+    "diffTitle": "What Makes Us Stand Out",
+    "deliveryLabel": "How We Work",
+    "deliveryTitle": "Our Delivery Approach",
+    "ctaTitle": "Need help choosing the right solution?",
+    "ctaSubtitle": "Share your goals and we will guide you to the most suitable program or service."
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "We are proud to work with leading organizations across multiple sectors, delivering measurable impact and long-term partnerships.",
+    "testimonialsLabel": "Testimonials",
+    "testimonialsTitle": "What Our Clients Say"
+  },
+  "events": {
+    "title": "Events & Gallery",
+    "subtitle": "Highlights from our programs, workshops, conferences, and community engagements.",
+    "photos": "photos",
+    "backToGallery": "Back to Gallery"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a question or want to discuss a program? We'd love to hear from you.",
+    "formTitle": "Send Us a Message",
+    "address": "Office Location, City, Country",
+    "phone": "[PHONE_PENDING]",
+    "email": "info@example.com",
+    "quickContactTitle": "Prefer a Quick Chat?",
+    "quickContactSubtitle": "Reach out directly for an immediate response.",
+    "quickContactCta": "Start a Conversation"
+  },
+  "forms": {
+    "fullName": "Full Name",
+    "organization": "Organization / Company",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "subject": "Subject / Inquiry Type",
+    "message": "Message",
+    "required": "This field is required",
+    "max500": "Maximum 500 characters",
+    "subjectOptions": {
+      "training": "Training Inquiry",
+      "consulting": "Consulting Inquiry",
+      "partnership": "Partnership Opportunity",
+      "general": "General Inquiry"
+    }
+  }
+}
