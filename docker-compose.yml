@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: forms-api
     ports:
-      - "8000:8000"
+      - "8095:8000"
     volumes:
       - forms-db:/app/db
       - forms-media:/app/media
@@ -24,9 +24,9 @@ services:
       dockerfile: Dockerfile
     container_name: website
     ports:
-      - "3000:3000"
+      - "3095:3000"
     environment:
-      - NEXT_PUBLIC_API_URL=http://localhost:8000
+      - NEXT_PUBLIC_API_URL=http://localhost:8095
     restart: unless-stopped
     depends_on:
       - forms-api
